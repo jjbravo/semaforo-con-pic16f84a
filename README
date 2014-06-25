@@ -1,0 +1,12 @@
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#		Autor Jhon Jairo Bravo				+
+#		email bramasterweb@gmail.com			+
+#		sdcc compiler					+
+# 		piklab IDE					+
+#								+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+Semaforo vehicular y peatonal en interseccion en un solo sentido, con
+seleccion de tiempo de trabajo por switch
+
+Licencia MIT

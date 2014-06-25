@@ -1,0 +1,12 @@
+<!DOCTYPE piklab>
+<piklab>
+  <general>
+    <device>16F84A</device>
+    <tool>sdcc</tool>
+    <programmer>direct</programmer>
+    <files>
+      <item>TraficTime.c</item>
+    </files>
+  </general>
+  <editors/>
+</piklab>

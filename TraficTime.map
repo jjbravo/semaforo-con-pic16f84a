@@ -1,0 +1,152 @@
+gplink-0.13.7 beta
+Map File - Created 6-10-2014  23:46:18
+ 
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                  STARTUP       code   00000000    program   0x000004
+          code_TraficTime       code   0x000002    program   0x000178
+               code_idata       code   0x0000be    program   0x000128
+                    .code       code   0x000152    program   0x000068
+                   .cinit       code   0x000186    program   0x000010
+             ID_idata_0_i       code   0x00018e    program   0x000002
+                  .config       code   0x002007    program   0x000002
+               ID_idata_0      idata   0x00003e       data   0x000001
+       UD_abs_pic16f84a_0      udata   00000000       data   0x000001
+       UD_abs_pic16f84a_1      udata   0x000001       data   0x000001
+       UD_abs_pic16f84a_2      udata   0x000002       data   0x000001
+       UD_abs_pic16f84a_3      udata   0x000003       data   0x000001
+       UD_abs_pic16f84a_4      udata   0x000004       data   0x000001
+       UD_abs_pic16f84a_5      udata   0x000005       data   0x000001
+       UD_abs_pic16f84a_6      udata   0x000006       data   0x000001
+       UD_abs_pic16f84a_8      udata   0x000008       data   0x000001
+       UD_abs_pic16f84a_9      udata   0x000009       data   0x000001
+       UD_abs_pic16f84a_a      udata   0x00000a       data   0x000001
+       UD_abs_pic16f84a_b      udata   0x00000b       data   0x000001
+                sharebank      udata   0x00000c       data   0x000010
+         UDL_TraficTime_0      udata   0x00001c       data   0x000016
+              UDL_idata_0      udata   0x000032       data   0x00000c
+      UD_abs_pic16f84a_81      udata   0x000081       data   0x000001
+      UD_abs_pic16f84a_85      udata   0x000085       data   0x000001
+      UD_abs_pic16f84a_86      udata   0x000086       data   0x000001
+      UD_abs_pic16f84a_88      udata   0x000088       data   0x000001
+      UD_abs_pic16f84a_89      udata   0x000089       data   0x000001
+ 
+                              Program Memory Usage
+                               Start         End
+                           ---------   ---------
+                            0x002007    0x002007
+                            00000000    0x000001
+                            0x000002    0x0000bd
+                            0x00018e    0x00018e
+                            0x0000be    0x000151
+                            0x000152    0x000185
+                            0x000186    0x00018d
+ 
+                            400 program addresses used
+ 
+                              Symbols
+                     Name    Address   Location    Storage File
+                ---------  ---------  ---------  --------- ---------
+                    PSAVE   0x00000c       data     extern TraficTime.c
+                    SSAVE   0x00000d       data     extern TraficTime.c
+                    WSAVE   0x00000e       data     extern TraficTime.c
+                    STK12   0x00000f       data     extern TraficTime.c
+                    STK11   0x000010       data     extern TraficTime.c
+                    STK10   0x000011       data     extern TraficTime.c
+                    STK09   0x000012       data     extern TraficTime.c
+                    STK08   0x000013       data     extern TraficTime.c
+                    STK07   0x000014       data     extern TraficTime.c
+                    STK06   0x000015       data     extern TraficTime.c
+                    STK05   0x000016       data     extern TraficTime.c
+                    STK04   0x000017       data     extern TraficTime.c
+                    STK03   0x000018       data     extern TraficTime.c
+                    STK02   0x000019       data     extern TraficTime.c
+                    STK01   0x00001a       data     extern TraficTime.c
+                    STK00   0x00001b       data     extern TraficTime.c
+                  r0x1003   0x00001c       data     static TraficTime.c
+                  r0x1002   0x00001d       data     static TraficTime.c
+                  r0x1001   0x00001e       data     static TraficTime.c
+                  r0x1000   0x00001f       data     static TraficTime.c
+                  r0x1004   0x000020       data     static TraficTime.c
+                  r0x1005   0x000021       data     static TraficTime.c
+                  r0x1006   0x000022       data     static TraficTime.c
+                  r0x1007   0x000023       data     static TraficTime.c
+                  r0x1009   0x000024       data     static TraficTime.c
+                  r0x1008   0x000025       data     static TraficTime.c
+                  r0x100B   0x000026       data     static TraficTime.c
+                  r0x100A   0x000027       data     static TraficTime.c
+                  r0x100C   0x000028       data     static TraficTime.c
+                  r0x100D   0x000029       data     static TraficTime.c
+                  r0x100F   0x00002a       data     static TraficTime.c
+                  r0x100E   0x00002b       data     static TraficTime.c
+                  r0x1011   0x00002c       data     static TraficTime.c
+                  r0x1010   0x00002d       data     static TraficTime.c
+                  r0x1012   0x00002e       data     static TraficTime.c
+                  r0x1013   0x00002f       data     static TraficTime.c
+                  r0x1014   0x000030       data     static TraficTime.c
+                  r0x1015   0x000031       data     static TraficTime.c
+                    _main   0x000002    program     extern TraficTime.c
+               _00121_DS_   0x00001d    program     static TraficTime.c
+               _00124_DS_   0x000025    program     static TraficTime.c
+            _semaforo_uno   0x00002f    program     extern TraficTime.c
+                _delay_ms   0x000085    program     extern TraficTime.c
+               _00105_DS_   0x00008c    program     static TraficTime.c
+               _00110_DS_   0x0000ab    program     static TraficTime.c
+               _00111_DS_   0x0000bd    program     static TraficTime.c
+                  r0x1001   0x000032       data     static ../build/libsdcc/idata.asm
+                  r0x1000   0x000033       data     static ../build/libsdcc/idata.asm
+                  r0x1002   0x000034       data     static ../build/libsdcc/idata.asm
+                  r0x1003   0x000035       data     static ../build/libsdcc/idata.asm
+                  r0x1004   0x000036       data     static ../build/libsdcc/idata.asm
+                  r0x1005   0x000037       data     static ../build/libsdcc/idata.asm
+                  r0x1007   0x000038       data     static ../build/libsdcc/idata.asm
+                  r0x1006   0x000039       data     static ../build/libsdcc/idata.asm
+                  r0x1009   0x00003a       data     static ../build/libsdcc/idata.asm
+                  r0x1008   0x00003b       data     static ../build/libsdcc/idata.asm
+                  r0x100B   0x00003c       data     static ../build/libsdcc/idata.asm
+                  r0x100A   0x00003d       data     static ../build/libsdcc/idata.asm
+             _force_cinit   0x00003e       data     static ../build/libsdcc/idata.asm
+    __sdcc_gsinit_startup   0x0000be    program     extern ../build/libsdcc/idata.asm
+       _code_idata_000008   0x0000c6    program     static ../build/libsdcc/idata.asm
+               _00108_DS_   0x0000d1    program     static ../build/libsdcc/idata.asm
+       _code_idata_000030   0x0000ee    program     static ../build/libsdcc/idata.asm
+       _code_idata_00003f   0x0000fd    program     static ../build/libsdcc/idata.asm
+       _code_idata_000057   0x000115    program     static ../build/libsdcc/idata.asm
+               _00105_DS_   0x00011e    program     static ../build/libsdcc/idata.asm
+       _code_idata_000076   0x000134    program     static ../build/libsdcc/idata.asm
+               _00107_DS_   0x000147    program     static ../build/libsdcc/idata.asm
+               _00110_DS_   0x00014e    program     static ../build/libsdcc/idata.asm
+                __gptrget   0x000152    program     extern _gptrget1.Spp
+               __gptrget1   0x000152    program     extern _gptrget1.Spp
+            __dataptrget1   0x000159    program     static _gptrget1.Spp
+            __codeptrget1   0x000160    program     extern _gptrget1.Spp
+               __gptrget2   0x000165    program     extern _gptrget2.Spp
+            __dataptrget2   0x00016d    program     static _gptrget2.Spp
+            __codeptrget2   0x000177    program     static _gptrget2.Spp
+                    _INDF   00000000       data     extern pic16f84a.asm
+                    _TMR0   0x000001       data     extern pic16f84a.asm
+                     _PCL   0x000002       data     extern pic16f84a.asm
+             _STATUS_bits   0x000003       data     extern pic16f84a.asm
+                  _STATUS   0x000003       data     extern pic16f84a.asm
+                     _FSR   0x000004       data     extern pic16f84a.asm
+              _PORTA_bits   0x000005       data     extern pic16f84a.asm
+                   _PORTA   0x000005       data     extern pic16f84a.asm
+              _PORTB_bits   0x000006       data     extern pic16f84a.asm
+                   _PORTB   0x000006       data     extern pic16f84a.asm
+                  _EEDATA   0x000008       data     extern pic16f84a.asm
+                   _EEADR   0x000009       data     extern pic16f84a.asm
+                  _PCLATH   0x00000a       data     extern pic16f84a.asm
+             _INTCON_bits   0x00000b       data     extern pic16f84a.asm
+                  _INTCON   0x00000b       data     extern pic16f84a.asm
+         _OPTION_REG_bits   0x000081       data     extern pic16f84a.asm
+              _OPTION_REG   0x000081       data     extern pic16f84a.asm
+              _TRISA_bits   0x000085       data     extern pic16f84a.asm
+                   _TRISA   0x000085       data     extern pic16f84a.asm
+              _TRISB_bits   0x000086       data     extern pic16f84a.asm
+                   _TRISB   0x000086       data     extern pic16f84a.asm
+             _EECON1_bits   0x000088       data     extern pic16f84a.asm
+                  _EECON1   0x000088       data     extern pic16f84a.asm
+                  _EECON2   0x000089       data     extern pic16f84a.asm
+                   _cinit   0x000186    program     extern TraficTime.c
+ 
